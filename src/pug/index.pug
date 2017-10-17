@@ -1,0 +1,41 @@
+extends ./base/layout.pug
+
+block content
+    nav.navbar.has-shadow
+        .container
+            .navbar-brand
+                a.navbar-item
+                    h2 logo
+                a.navbar-item.is-hidden-desktop
+                    h2 link resposives
+            .navbar-menu
+                .navbar-end
+                    .navbar-tabs
+                        a.navbar-link.is-tab Inicio
+                        .navbar-dropdown
+                           a.navbar-item.is-tab Item 
+                    .navbar-tabs
+                        a.navbar-item.is-tab Inicio
+    .container
+        nav.level
+            .level-left
+                h2 logo
+            .level-right
+                .level-item
+                    a(href="") item-1
+                .level-item
+                    a(href="") item-2
+                .level-item
+                    a(href="") item-3
+    .container.is-fullhd
+        .notification
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi necessitatibus magni natus ducimus repellendus libero rem eius voluptatem, harum laboriosam error, omnis voluptates reiciendis recusandae, fugiat illo odio itaque quam.
+    section.section
+        .container
+            .columns
+                .column.has-text-centered
+                    p Cargar html uno
+                    a.button.is-primary.getcontent Crear primero
+                .column.has-text-centered
+                    p Cargar html dos
+                    a.button.is-primary.loadhtml Crear segundo
