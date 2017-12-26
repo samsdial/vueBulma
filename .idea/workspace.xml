@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/style.css" afterPath="$PROJECT_DIR$/docs/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js" afterPath="$PROJECT_DIR$/docs/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +71,8 @@
       <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="342">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -136,7 +134,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/Id_data--binding" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -418,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514321603690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Creacion de base Ajustes pre&#10;">
+      <created>1514324909841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514324909841</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22473000" />
+    <option name="totallyTimeSpent" value="22990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2672" y="0" width="1254" height="1047" extended-state="0" />
@@ -460,7 +465,8 @@
     <MESSAGE value="Add nuevo curso Vue js Parte 1" />
     <MESSAGE value="Add nuevo curso Vue js Parte 2" />
     <MESSAGE value="Add video 10 curso Vue -- Data binding en atributos y clases&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add video 10 curso Vue -- Data binding en atributos y clases&#10;" />
+    <MESSAGE value="Add Creacion de base Ajustes pre&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Creacion de base Ajustes pre&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
       </provider>
