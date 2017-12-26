@@ -58,33 +58,11 @@
               <h2>Mis tareas</h2>
               <hr>
               <ul>
-                <li v-on:click="completarTarea(tarea)" v-for="(tarea, index) in tareas">
-                  <p>{{index }} -- {{ tarea.titulo }}</p>
+                <li v-on:click="completarTarea(tarea)" v-for="(tarea in tareas">
+                  <p>{{ tarea.titulo }}</p>
                 </li>
               </ul>
               <hr>
-              <ul>
-                <li v-for="(tarea, index) in tareasConPrioridad"><a>{{index }} -- {{ tarea.titulo }}</a></li>
-              </ul>
-              <hr>
-              <ul>
-                <li v-for="(tarea, index) in tareasPorAntiguedad"><a>{{ index }} -- {{ tarea.titulo }}</a></li>
-              </ul>
-              <hr>
-              <form v-on:submit.prevent="agregarTarea">
-                <input type="text" placeholder="introduce una tarea" v-model="nuevaTarea">
-                <input type="submit" value="enviar tarea">
-              </form>
-              <hr>
-              <ul>
-                <li v-for="juego in mejoresJuegos"><a>{{ juego.titulo }}</a></li>
-              </ul>
-              <input type="range" min="0" max="10" v-model="minimo">
-              <hr>
-              <input type="search" v-model="busqueda" placeholder="buscar juego">
-              <ul>
-                <li v-for="juego in buscarJuego"><a>{{ juego.titulo}}</a></li>
-              </ul>
             </div>
           </div>
           <div class="columns notification">
@@ -95,17 +73,6 @@
         </div>
       </section>
     </main>
-    <div class="app">
-      <section class="section">
-        <div class="container">
-          <div class="columns notification">
-            <div class="column">
-              <h2>{{ mensaje }}</h2>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
     <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script src="js/custom.js"></script>
