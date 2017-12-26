@@ -30,3 +30,42 @@ $ npm install
 ```shell
 $ gulp watch
 ```
+
+
+# Que es e VUE.JS
+# Que es data bing y reactividad
+
+  - Que pasa cuando el modelo cambia o se actualiza? deberia Actualizarse... Reactividad 
+
+# Que son las directivas
+   
+   - atributos y capacidades a los html 
+
+***  Renderisado condicional
+ 
+v show
+    - Elemento que se puede mostra o ocultar(display none) con una variable booleana
+```javascript
+    v-show
+```
+v if
+    - Elemento que se puede borrar o crear en el Dom apartir de una varia ble booleana
+
+v else
+    - Elemento se puede condicionar segú el valor conducional de una variable
+```html
+    <main>
+        <h1 v-if="edad < 18">No puedes entrar.</h1>
+        <h1 v-else-if="edad > 200"> Eres inmortal.</h1>
+        <h1 v-else> Puedes entrar.</h1>
+    </main>
+```
+````javascript
+    const vm = new Vue ({
+        el: 'main',
+        data: {
+            conectado: false,
+            edad: 44,
+        }
+    });
+````

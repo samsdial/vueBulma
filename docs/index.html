@@ -42,42 +42,29 @@
         <div class="navbar-menu">
           <div class="navbar-end">
             <div class="navbar-tabs"><a class="navbar-link is-tab">Inicio</a>
-              <div class="navbar-dropdown"><a class="navbar-item is-tab">Item </a></div>
+              <div class="navbar-dropdown"><a class="navbar-item is-tab">Item</a></div>
             </div>
             <div class="navbar-tabs"><a class="navbar-item is-tab">Inicio</a></div>
           </div>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <nav class="level">
-        <div class="level-left">
-          <h2>logo</h2>
-        </div>
-        <div class="level-right">
-          <div class="level-item"><a href="">item-1</a></div>
-          <div class="level-item"><a href="">item-2</a></div>
-          <div class="level-item"><a href="">item-3</a></div>
-        </div>
-      </nav>
-    </div>
-    <div class="container is-fullhd">
-      <div class="notification">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi necessitatibus magni natus ducimus repellendus libero rem eius voluptatem, harum laboriosam error, omnis voluptates reiciendis recusandae, fugiat illo odio itaque quam.</p>
-      </div>
-    </div>
-    <section class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column has-text-centered">
-            <p>Cargar html uno</p><a class="button is-primary getcontent">Crear primero</a>
-          </div>
-          <div class="column has-text-centered">
-            <p>Cargar html dos</p><a class="button is-primary loadhtml">Crear segundo</a>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="columns notification">
+            <div class="column">
+              <h2 class="item" v-if="conectado">Estoy Conectado</h2>
+              <h2 class="list" v-if="edad &lt; 16">No puedes entrar</h2>
+              <h2 class="list" v-else-if="edad &gt; 200">Eres inmortal</h2>
+              <h2 class="list" v-else>puedes entrar</h2>
+              <pre>{{ $data }}</pre>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+    <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script src="js/custom.js"></script>
   </body>

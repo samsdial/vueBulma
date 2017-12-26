@@ -13,29 +13,16 @@ block content
                     .navbar-tabs
                         a.navbar-link.is-tab Inicio
                         .navbar-dropdown
-                           a.navbar-item.is-tab Item 
+                           a.navbar-item.is-tab Item
                     .navbar-tabs
                         a.navbar-item.is-tab Inicio
-    .container
-        nav.level
-            .level-left
-                h2 logo
-            .level-right
-                .level-item
-                    a(href="") item-1
-                .level-item
-                    a(href="") item-2
-                .level-item
-                    a(href="") item-3
-    .container.is-fullhd
-        .notification
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi necessitatibus magni natus ducimus repellendus libero rem eius voluptatem, harum laboriosam error, omnis voluptates reiciendis recusandae, fugiat illo odio itaque quam.
-    section.section
-        .container
-            .columns
-                .column.has-text-centered
-                    p Cargar html uno
-                    a.button.is-primary.getcontent Crear primero
-                .column.has-text-centered
-                    p Cargar html dos
-                    a.button.is-primary.loadhtml Crear segundo
+    main
+        section.section
+            .container
+                .columns.notification
+                    .column
+                        h2.item(v-if="conectado") Estoy Conectado
+                        h2.list(v-if="edad < 16") No puedes entrar
+                        h2.list(v-else-if="edad > 200") Eres inmortal
+                        h2.list(v-else) puedes entrar
+                        pre {{ $data }}
