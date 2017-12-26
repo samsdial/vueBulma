@@ -5,7 +5,6 @@ const vm = new Vue ({
         nuevaTarea: null,
     },
     methods:{
-
     },
     computed: {
 
