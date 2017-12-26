@@ -45,8 +45,13 @@ const vm = new Vue ({
     },
     methods: {
         completarTarea(tarea){
-            console.log(tarea);
+            /*console.log(tarea);*/
+            tarea.completado = !tarea.completado;
+        }
+    },
+    computed: {
+        tareasComputadas(){
+            return this.tareas.filter((tarea) => tarea.completado)
         }
     }
-
 });

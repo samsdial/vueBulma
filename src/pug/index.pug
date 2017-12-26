@@ -24,9 +24,16 @@ block content
                         hr
                         h2 Mis tareas
                         hr
+                        .field.is-grouped.is-grouped-multiline
+                            .control
+                                .tag.has-addons
+                                    span.tag.is-dark Completadas:
+                                    span.tag.is-info {{ tareasComputadas.length }}
+                        hr
                         ul
-                            li(v-on:click="completarTarea(tarea)", v-for="(tarea in tareas")
-                                p {{ tarea.titulo }}
+                            li( :class="{completado: tarea.completado}", @click="completarTarea(tarea)", v-for="(tarea in tareas", style="margin:5px 0px;")
+                                span {{ tarea.titulo }}
+                                span(v-show="tarea.completado").is-pulled-right.tag.is-success Completado
                         hr
                 .columns.notification
                     .column

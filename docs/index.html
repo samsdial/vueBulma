@@ -57,10 +57,14 @@
               <hr>
               <h2>Mis tareas</h2>
               <hr>
+              <div class="field is-grouped is-grouped-multiline">
+                <div class="control">
+                  <div class="tag has-addons"><span class="tag is-dark">Completadas:</span><span class="tag is-info">{{ tareasComputadas.length }}</span></div>
+                </div>
+              </div>
+              <hr>
               <ul>
-                <li v-on:click="completarTarea(tarea)" v-for="(tarea in tareas">
-                  <p>{{ tarea.titulo }}</p>
-                </li>
+                <li :class="{completado: tarea.completado}" @click="completarTarea(tarea)" v-for="(tarea in tareas" style="margin:5px 0px;"><span>{{ tarea.titulo }}</span><span class="is-pulled-right tag is-success" v-show="tarea.completado">Completado</span></li>
               </ul>
               <hr>
             </div>
