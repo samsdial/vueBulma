@@ -21,8 +21,41 @@ block content
             .container
                 .columns.notification
                     .column
-                        h2.item(v-if="conectado") Estoy Conectado
-                        h2.list(v-if="edad < 16") No puedes entrar
-                        h2.list(v-else-if="edad > 200") Eres inmortal
-                        h2.list(v-else) puedes entrar
+                        hr
+                        h2 Mis tareas
+                        hr
+                        ul
+                            li(v-on:click="completarTarea(tarea)", v-for="(tarea, index) in tareas")
+                                p {{index }} -- {{ tarea.titulo }}
+                        hr
+                        ul
+                            li(v-for="(tarea, index) in tareasConPrioridad")
+                                a {{index }} -- {{ tarea.titulo }}
+                        hr
+                        ul
+                            li(v-for="(tarea, index) in tareasPorAntiguedad")
+                                a {{ index }} -- {{ tarea.titulo }}
+                        hr
+                        form(v-on:submit.prevent="agregarTarea")
+                            input(type="text", placeholder="introduce una tarea", v-model="nuevaTarea")
+                            input(type="submit", value="enviar tarea")
+                        hr
+                        ul
+                            li(v-for="juego in mejoresJuegos")
+                                a {{ juego.titulo }}
+                        input(type="range", min="0", max="10", v-model="minimo")
+                        hr
+                        input(type="search", v-model="busqueda", placeholder="buscar juego")
+                        ul
+                            li(v-for="juego in buscarJuego")
+                                a {{ juego.titulo}}
+
+                .columns.notification
+                    .column
                         pre {{ $data }}
+    .app
+        section.section
+            .container
+                .columns.notification
+                    .column
+                        h2 {{ mensaje }}

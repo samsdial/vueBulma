@@ -69,3 +69,17 @@ v else
         }
     });
 ````
+*** Template
+
+```html
+    <main>
+        <template v-if="conectado">
+        <h3> Bievenido Juan</h3>
+        <ul>
+        <li><a href="#">Mis datos</a></li>
+        <li><a href="#">Mensaje</a></li>
+        <li><a href="#">Salir</a></li>
+        </ul>
+        </template>
+    </main>
+```
