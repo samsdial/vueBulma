@@ -23,7 +23,9 @@ block content
                     .column
                         hr
                         h2 Mis tareas
+                        img(v-for="persona in personas", :src="persona.picture.thumbnail")
                         hr
+
                 .columns.notification
                     .column
                         pre {{ $data }}
