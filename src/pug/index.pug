@@ -22,8 +22,15 @@ block content
                 .columns.notification
                     .column
                         hr
-                        h2 Mis tareas
+                        h2 Mostra u ocultar
                         hr
+                        button(@click="mostrar = !mostrar") Mostrar / Ocultar
+                        transition(name="fade", mode="out-in", appear)
+                            .is-info(v-if="mostrar")
+                                hr
+                                h4(v-text="mensajes.transicion")
+                                hr
+
                 .columns.notification
                     .column
                         pre {{ $data }}

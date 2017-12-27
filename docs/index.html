@@ -55,8 +55,16 @@
           <div class="columns notification">
             <div class="column">
               <hr>
-              <h2>Mis tareas</h2>
+              <h2>Mostra u ocultar</h2>
               <hr>
+              <button @click="mostrar = !mostrar">Mostrar / Ocultar</button>
+              <transition name="fade" mode="out-in" appear>
+                <div class="is-info" v-if="mostrar">
+                  <hr>
+                  <h4 v-text="mensajes.transicion"></h4>
+                  <hr>
+                </div>
+              </transition>
             </div>
           </div>
           <div class="columns notification">
