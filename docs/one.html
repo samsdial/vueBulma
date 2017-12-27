@@ -1,8 +1,13 @@
 
-<p>Este es mi primera data --  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi necessitatibus magni natus ducimus repellendus libero rem eius voluptatem, harum laboriosam error, omnis voluptates reiciendis recusandae, fugiat illo odio itaque quam.</p>
-<ul>
-  <li><a href="#">item_1</a></li>
-  <li><a href="#">item_2</a></li>
-  <li><a href="#">item_3</a></li>
-</ul>
-<p>me quiero regresar a primera</p>
+<elegir-ganador :listado="personas" inline-template="inline-template">
+  <div>
+    <h2 v-if="ganador">El Ganador es: {{ ganador }}</h2>
+    <template v-else="v-else">
+      <h2>Participantes</h2>
+      <ul>
+        <li v-for="persona in listado">{{ persona }}</li>
+      </ul>
+    </template>
+    <button @click="elegirGanador">Elegir Ganador</button>
+  </div>
+</elegir-ganador>
