@@ -1,2 +1,2 @@
-"use strict";var vm=new Vue({el:"main",data:{nuevaTarea:null},methods:{},computed:{}});
+"use strict";Vue.component("autor",{props:["nombre","edad"],template:"<h3>{{ nombre }}</h3>"});var vm=new Vue({el:"main",data:{autor:"Juan Andres"}});
 //# sourceMappingURL=custom.js.map
