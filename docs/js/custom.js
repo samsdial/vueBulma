@@ -1,2 +1,2 @@
-"use strict";var vm=new Vue({el:"main",data:{nuevaTarea:null},methods:{},computed:{}});
+"use strict";Vue.component("candidato",{props:{nombre:{type:[String,Array],required:!0},correoe:{type:String,default:"juan@wmedia.es"},imagen:String,location:{type:Object,default:function(){return{ciudad:"Valencia"}}}},template:"#candidato-template"}),new Vue({el:"main",mounted:function(){this.obtenerCandidatos()},data:{candidatos:[]},methods:{obtenerCandidatos:function(){var t=this;axios.get("https://randomuser.me/api/?results=25").then(function(e){t.candidatos=e.data.results})}}});
 //# sourceMappingURL=custom.js.map

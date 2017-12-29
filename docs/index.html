@@ -60,6 +60,22 @@
             </div>
           </div>
           <div class="columns notification">
+            <div class="column sams">
+              <candidato v-for="candidato in candidatos" :nombre="candidato.name.first" :correoe="candidato.email" :imagen="candidato.picture.thumbnail"></candidato>
+              <hr>
+              <script type="text/template" id="candidato-template">
+                <blockquote><img :src="imagen">
+                  <h2>{{ nombre }}</h2><small>{{ correoe }}</small>
+                  <ul>
+                    <li v-for="(value, key, index) in location">
+                      <p>{{ value }}</p>
+                    </li>
+                  </ul>
+                </blockquote>
+              </script>
+            </div>
+          </div>
+          <div class="columns notification">
             <div class="column">
               <pre>{{ $data }}</pre>
             </div>
@@ -68,6 +84,7 @@
       </section>
     </main>
     <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
