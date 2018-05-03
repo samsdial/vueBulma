@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="Add base master&#10;">
+    <list default="true" id="e73a2afc-b28f-4054-a108-c61b8928615e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/base/layout.html" afterPath="$PROJECT_DIR$/docs/base/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js" afterPath="$PROJECT_DIR$/docs/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/custom.js.map" afterPath="$PROJECT_DIR$/docs/js/custom.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/one.html" afterPath="$PROJECT_DIR$/docs/one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom.js" afterPath="$PROJECT_DIR$/src/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,13 +25,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6455224">
+    <splitter split-orientation="horizontal" split-proportion="0.10714286">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
+                <state relative-caret-position="1224">
                   <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
                   <folding />
                 </state>
@@ -48,12 +42,32 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/custom.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+                <state relative-caret-position="323">
+                  <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="454">
+                    <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+                    <folding>
+                      <marker date="1525380231533" expanded="true" signature="1169:1329" ph="..." />
+                      <marker date="1525380231533" expanded="true" signature="1374:1479" ph="{&quot;el&quot;: 'main'...}" />
+                      <marker date="1525380231533" expanded="true" signature="1410:1473" ph="{...}" />
+                      <marker date="1525380231533" expanded="true" signature="1518:1769" ph="..." />
+                      <marker date="1525380231533" expanded="true" signature="1554:1757" ph="..." />
+                      <marker date="1525380231533" expanded="true" signature="1600:1737" ph="..." />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -80,12 +94,12 @@
         <option value="$PROJECT_DIR$/src/pug/one.pug" />
         <option value="$PROJECT_DIR$/src/pug/base/layout.pug" />
         <option value="$PROJECT_DIR$/docs/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/two.html" />
         <option value="$PROJECT_DIR$/src/sass/style.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/js/custom.js" />
         <option value="$PROJECT_DIR$/src/pug/index.pug" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -113,7 +127,7 @@
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -126,7 +140,24 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueBulma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueBulma" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -217,7 +248,7 @@
       <workItem from="1514989356283" duration="1738000" />
       <workItem from="1515074758217" duration="630000" />
       <workItem from="1519734948735" duration="488000" />
-      <workItem from="1525366623019" duration="4006000" />
+      <workItem from="1525366623019" duration="4834000" />
     </task>
     <task id="LOCAL-00001" summary="Add nuevo curso Vue js Parte 1">
       <created>1514305735134</created>
@@ -261,18 +292,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514387093460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Class Events &#10;">
+      <created>1525380054873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525380054873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44360000" />
+    <option name="totallyTimeSpent" value="45188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31556502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -327,7 +365,8 @@
     <MESSAGE value="Add ajuste in gitignore&#10;" />
     <MESSAGE value="Add video Componetes intro Fin&#10;" />
     <MESSAGE value="Add video Componentes Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add video Componentes Final" />
+    <MESSAGE value="Add Class Events &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class Events &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,6 +387,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -395,6 +435,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,6 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -542,6 +584,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1596">
-            <caret line="84" column="3" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/one.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -634,6 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -685,19 +719,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="1224">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+    <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="454">
+            <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            <folding>
+              <marker date="1525380231533" expanded="true" signature="1169:1329" ph="..." />
+              <marker date="1525380231533" expanded="true" signature="1374:1479" ph="{&quot;el&quot;: 'main'...}" />
+              <marker date="1525380231533" expanded="true" signature="1410:1473" ph="{...}" />
+              <marker date="1525380231533" expanded="true" signature="1518:1769" ph="..." />
+              <marker date="1525380231533" expanded="true" signature="1554:1757" ph="..." />
+              <marker date="1525380231533" expanded="true" signature="1600:1737" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

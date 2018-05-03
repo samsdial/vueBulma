@@ -83,3 +83,9 @@ v else
         </template>
     </main>
 ```
+
+*** Eventos
+
+Directiva que controla los eventos
+
+v-on
