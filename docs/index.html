@@ -52,13 +52,20 @@
     <main>
       <section class="section">
         <div class="container">
-          <div class="columns notification">
+          <div class="columns notification" style="margin-bottom: 22px;">
             <div class="column">
               <hr>
               <h2>Mis tareas</h2>
               <hr>
+              <ul>
+                <li v-for="tarea in tareas"><span>{{ tarea }}</span></li>
+              </ul>
+              <input type="text" placeholder="Introduce tu Area" v-model="nuevaTarea" @keyup.enter="agregarTarea">
+              <input type="button" value="Enviar" @click="agregarTarea">
             </div>
           </div>
+        </div>
+        <div class="container">
           <div class="columns notification">
             <div class="column">
               <pre>{{ $data }}</pre>

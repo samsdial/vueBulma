@@ -19,11 +19,17 @@ block content
     main
         section.section
             .container
-                .columns.notification
+                .columns.notification(style="margin-bottom: 22px;")
                     .column
                         hr
                         h2 Mis tareas
                         hr
+                        ul
+                            li(v-for="tarea in tareas")
+                                span {{ tarea }}
+                        input(type="text", placeholder="Introduce tu Area" , v-model="nuevaTarea", @keyup.enter="agregarTarea" )
+                        input(type="button", value="Enviar", @click="agregarTarea")
+            .container
                 .columns.notification
                     .column
                         pre {{ $data }}
